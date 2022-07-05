@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+
+}
+.bennar{
+    width: 100%;
+    background: url(/images/donation8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+}
+.container{
+    border: white 2px solid;
+    
+    color: white;
+    text-align: center;
+    
+}
+.container h1{
+    font-weight: 500;
+    font-size: 55px;
+    padding: 6px 14px;
+}
+.container p{
+    font-size: 15px;
+}
+button{
+    
+        display: inline-block;
+        background-color:rgb(230, 33, 33) ;
+        padding: 10px 20px;
+        border-radius: 0.5rem;
+        color: #fff;
+      
+}
