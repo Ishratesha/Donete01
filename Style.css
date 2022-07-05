@@ -13,10 +13,14 @@ box-sizing: border-box;
     background: url(/images/donation8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 540px;
+    height: 640px;
+    
 }
 .container{
-    border: white 2px solid;
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
     
     color: white;
     text-align: center;
@@ -39,3 +43,50 @@ button{
         color: #fff;
       
 }
+.amount-section{
+    align-items: center;
+    border: 3px solid yellow;
+}
+.amount-container{
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
+.amount-container ul{
+    justify-items: center;
+}
+.amounts ul{
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    
+    justify-content: center;
+}
+
+.amounts ul li{
+    display: flex;
+    margin: 15px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 30px;
+    
+    padding: 16px 18px 16px;
+    
+}
+#select-box{
+    border: 5px solid red;
+    padding: 16px 18px 16px;
+    background-color: rgb(255, 146, 134);
+}
+.parent {
+    height: 200px;
+    background: #CCCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .child {
+    background-color: #ed4b4b;
+    width: 700px;
+    height: 150px
+    }
