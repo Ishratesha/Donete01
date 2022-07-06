@@ -78,15 +78,44 @@ button{
     padding: 16px 18px 16px;
     background-color: rgb(255, 146, 134);
 }
+.cards{
+    display: flex;
+    margin: 10px;
+    border: #ed4b4b 3px solid;
+    padding: 50px;
+    align-items: center;
+    padding-right: 12px;
+}
+.card{
+    margin: 10px;
+    border: #ed4b4b 3px solid;
+    width: 200px;
+    height: 350px;
+    justify-self: center;
+    padding-left: 13%;
+}
 .parent {
     height: 200px;
-    background: #CCCCCC;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     }
     .child {
-    background-color: #ed4b4b;
+    background-color: #e98282;
     width: 700px;
     height: 150px
     }
+    
+    h1{
+        text-align: center;
+    }
+    footer{
+        width: 100%;
+        height: 150px;
+        background-color: black;
+        color: rgb(176, 15, 15);
+    }
+   input{
+    justify-items: center;
+   }
