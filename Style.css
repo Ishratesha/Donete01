@@ -20,7 +20,8 @@ box-sizing: border-box;
 }
 p{
     text-align: center;
-    font-size: 16px;
+    font-size: 13px;
+    
     color: rgb(138, 124, 124);
 }
 .container{
