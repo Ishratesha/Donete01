@@ -8,6 +8,7 @@ font-family: 'Poppins', sans-serif;
 box-sizing: border-box;
 
 }
+
 .bennar{
     width: 100%;
     background: url(./images/donation6.jpg);
@@ -118,7 +119,12 @@ button{
       background-color: #cfd59b;
     
 }
-
+#card-1{
+ background-color: rgb(128, 222, 191);
+}
+#card-3{
+ background-color: rgb(241, 186, 160);
+}
 #amount-selete-input {
     width: 400px;
     padding: 12px 20px;
